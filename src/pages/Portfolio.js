@@ -4,7 +4,7 @@ import React from "react";
 // Individual projects will be contained in either components or a seperate folder.
 
 function Portfolio() {
-  return <div>Portfolio</div>;
+  return <div></div>;
 }
 
 export default Portfolio;

@@ -1,41 +1,12 @@
-import React, { useState } from "react";
-import Navigation from "../components/Navigation";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Resume from "./Resume";
+// Import useState to utilize conditional rendering
+import React from "react";
 
 // About will be the home page
 // containing a brief introduction and a short summary of skills
 
 function About() {
-  const [currentPage, setCurrentPage] = useState("Home");
-
-  const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Portfolio") {
-      return <Portfolio />;
-    }
-    return <Contact />;
-  };
-  if (currentPage === "Resume") {
-    return <Resume />;
-  }
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
   return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
       <div>
-        <h1>About</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -46,7 +17,6 @@ function About() {
           at.
         </p>
       </div>
-    </div>
   );
 }
 

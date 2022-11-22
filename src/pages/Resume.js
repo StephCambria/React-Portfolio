@@ -4,7 +4,7 @@ import React from "react";
 // For the sake of time
 
 function Resume() {
-  return <div>Resume</div>;
+  return <div></div>;
 }
 
 export default Resume;
