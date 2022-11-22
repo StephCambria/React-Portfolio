@@ -17,7 +17,7 @@ function Navigation({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "About" ? "navbar a" : "navbar"}
         >
-          About
+          about
         </a>
 
         <a
@@ -28,7 +28,7 @@ function Navigation({ currentPage, handlePageChange }) {
             currentPage === "Portfolio" ? "navbar a" : "navbar"
           }
         >
-          Portfolio
+          portfolio
         </a>
 
         <a
@@ -37,7 +37,7 @@ function Navigation({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Contact" ? "navbar a" : "navbar"}
         >
-          Contact
+          contact
         </a>
 
         <a
@@ -46,7 +46,7 @@ function Navigation({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Resume" ? "navbar a" : "navbar"}
         >
-          Resume
+          resume
         </a>
       </div>
     </div>
