@@ -16,8 +16,7 @@ import Resume from "./pages/Resume";
 // Footer
 import Footer from "./components/Footer";
 
-// Use conditional rendering?
-// map function
+// Use conditional rendering
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
