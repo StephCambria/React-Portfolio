@@ -1,9 +1,10 @@
-.header {
-    margin-top: 10px;
-    width: 100%;
-    height: calc(60vh - 40px);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.header .headerphoto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: calc(40vh - 20px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

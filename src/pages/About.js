@@ -8,13 +8,13 @@ import "../styles/About.css";
 function About() {
   return (
     <div className="home">
-    <div className="about">
-      <h3 className="about-title">About Me</h3>
-      <p className="about-text">
-        Hello! My name is Stephanie, and I am a painter turned junior web
-        developer.
-      </p>
-    </div>
+      <div className="about">
+        <h3 className="about-title">About Me</h3>
+        <p className="about-text">
+          Hello! My name is Stephanie, and I am a painter turned junior web
+          developer.
+        </p>
+      </div>
     </div>
   );
 }
