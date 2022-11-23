@@ -1,0 +1,46 @@
+.home {
+  width: 100%;
+  align-items: center;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #91BFBC;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 30px;
+    color: #C0D4DB;
+  }
+
+  .title {
+    color: #C0D4DB;
+    font-size: 20px;
+    height: 20px;
+  }
+
+  .skills {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills .list .list-item {
+    list-style: none;
+    width: 90%;
+  }
+
+  span {
+    font-size: 20px;
+  }
+  

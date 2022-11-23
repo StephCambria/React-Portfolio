@@ -5,26 +5,19 @@ import { TfiLinkedin } from "react-icons/tfi";
 import { TfiInstagram } from "react-icons/tfi";
 import "../styles/Footer.css";
 
-
 // Footer will be the footer containing icons that appears on each page
-
-// Icons:
-// Github
 
 function Footer() {
   return (
-  <div className="footer">
-<div>
+    <div className="footer">
+      <div>
+        <TfiGithub />
+        <TfiLinkedin />
+        <TfiInstagram />
+      </div>
 
-<TfiGithub />
-<TfiLinkedin />
-<TfiInstagram />
-  
-</div>
-
-
-  <p> &copy; 2022 </p>
-  </div>
+      <p> &copy; 2022 </p>
+    </div>
   );
 }
 

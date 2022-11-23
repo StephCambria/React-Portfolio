@@ -1,7 +1,7 @@
 .header {
     margin-top: 10px;
     width: 100%;
-    height: calc(80vh - 20px);
+    height: calc(60vh - 40px);
     background-size: cover;
     display: flex;
     justify-content: center;

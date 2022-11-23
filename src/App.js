@@ -19,7 +19,7 @@ import Footer from "./components/Footer";
 // Use conditional rendering
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
     if (currentPage === "About") {
@@ -28,11 +28,13 @@ function App() {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    return <Contact />;
-  };
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
   if (currentPage === "Resume") {
     return <Resume />;
   }
+}
 
   const handlePageChange = (page) => setCurrentPage(page);
 

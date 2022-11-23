@@ -1,6 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
+    align-items: center;
   }
   
   .links {
@@ -8,16 +9,15 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    color: #91BFBC;
-    padding: 0 5vw;
+    justify-content: center;
+    text-align: center;
   }
   
   .navbar a {
-    color: #91BFBC;
+    color: #C0D4DB;
     text-decoration: none;
     margin: 20px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   a:hover {
