@@ -1,0 +1,36 @@
+.vertical-timeline-element-title {
+    color: #91BFBC;
+    font-size: medium;
+}
+
+.vertical-timeline-element-subtitle {
+    margin-top: 1rem;
+    color:#91BFBC;
+}
+
+.title {
+    color: #C0D4DB;
+    font-size: 40px;
+    height: 20px;
+    text-align: center;
+  }
+
+  .skills {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills .list .list-item {
+    list-style: none;
+    width: 90%;
+  }
+
+  span {
+    font-size: 20px;
+    color:#91BFBC;
+  }

@@ -1,6 +1,8 @@
 .home {
   width: 100%;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .about {
@@ -12,6 +14,8 @@
     align-items: center;
     text-align: center;
     color: #91BFBC;
+    margin: 0;
+    padding: 0;
   }
 
   .about-title {
@@ -20,27 +24,8 @@
     color: #C0D4DB;
   }
 
-  .title {
-    color: #C0D4DB;
-    font-size: 20px;
-    height: 20px;
-  }
-
-  .skills {
-    font-size: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .skills .list .list-item {
-    list-style: none;
-    width: 90%;
-  }
-
-  span {
+  .about-text {
+    color:#91BFBC;
     font-size: 20px;
   }
   

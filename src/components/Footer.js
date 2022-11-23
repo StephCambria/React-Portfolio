@@ -16,7 +16,7 @@ function Footer() {
         <TfiInstagram />
       </div>
 
-      <p> &copy; 2022 </p>
+      <p> &copy; 2022 Stephanie Cambria</p>
     </div>
   );
 }
