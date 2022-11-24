@@ -55,6 +55,8 @@ function Resume() {
         </VerticalTimelineElement>
       </VerticalTimeline>
 
+      <br></br>
+
       <div className="skills">
         <ul className="list">
           <li className="list-item">

@@ -1,0 +1,25 @@
+.contactBody {
+    width: 40%;
+    padding: 40px;
+    margin: 40px;
+}
+
+.form-label {
+    font-size: 25px;
+    color: #c0d4db;
+}
+
+.sendBtn {
+    margin: 5.5px;
+    border-radius: 5em;
+    border-style: none;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #91BFBC;
+    color: #fff;
+}
+
+.sendBtn:hover {
+    background-color: #c0d4db;
+    transition: 0.2s ease-in-out;
+}

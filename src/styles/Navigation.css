@@ -12,17 +12,19 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  text-decoration: none;
 }
 
 .navbar a {
   color: #c0d4db;
   text-decoration: none;
-  margin: 20px;
+  padding-inline: 7.5%;
   font-size: 20px;
 }
 
 a:hover {
-  opacity: 70%;
+  color: #91BFBC !important;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  text-decoration: none;
 }

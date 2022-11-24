@@ -8,6 +8,7 @@ import "../styles/About.css";
 function About() {
   return (
     <div className="home">
+      { /* photo here */}
       <div className="about">
         <h3 className="about-title">About Me</h3>
         <p className="about-text">
