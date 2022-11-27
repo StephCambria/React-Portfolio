@@ -6,26 +6,51 @@
 }
 
 .about {
-    width: 100%;
-    height: calc(100vh - 360px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #91BFBC;
-    margin: 0;
-    padding: 0;
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #91bfbc;
+  margin: 0;
+  padding: 0;
+}
 
-  .about-title {
-    text-align: center;
-    font-size: 30px;
-    color: #C0D4DB;
-  }
+.about-title {
+  text-align: center;
+  font-size: 30px;
+  color: #c0d4db;
+  padding: 20px;
+}
 
-  .about-text {
-    color:#91BFBC;
-    font-size: 20px;
-  }
-  
+.profilePhoto {
+  width: 20%;
+  height: 25%;
+  border-radius: 70%;
+  padding: 20px;
+}
+
+.about-blurb {
+  color: #c0d4db;
+  padding: 20px;
+}
+
+.aboutSection {
+  padding: 20px;
+  width: 60%;
+}
+
+.about-text {
+  color: #91bfbc;
+  font-size: 20px;
+}
+
+.igPhoto {
+  width: 20%;
+  height: 30%;
+  border-radius: 70%;
+  padding: 20px;
+}
+

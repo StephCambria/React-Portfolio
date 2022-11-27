@@ -1,4 +1,4 @@
-.projects {
+.portfolio {
     width: 100%;
     height: auto;
     display: flex;
@@ -6,17 +6,24 @@
     align-items: center;
     flex-direction: column;
   }
-  .projects .projectTitle {
+  .portfolio .title {
     text-align: center;
-    color: #3e497a;
-    font-size: 60px;
-    font-weight: bolder;
+    color: #C0D4DB;
+    font-size: 30px;
+    padding: 20px;
   }
   
-  .projectList {
-    width: 70vw;
+  .projectsList {
+    width: 90vw;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    padding: 5px;
+  }
+
+  .card-title {
+    color: #C0D4DB;
+  }
+
+  .card-text {
+    color: #91BFBC;
   }
