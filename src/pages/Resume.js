@@ -14,6 +14,7 @@ import "../styles/Resume.css";
 function Resume() {
   return (
     <div className="experience">
+      <br></br>
       <VerticalTimeline lineColor="#C0D4DB">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
