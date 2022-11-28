@@ -12,8 +12,24 @@ import "../styles/Resume.css";
 // For the sake of time
 
 function Resume() {
+
+  const download = () => {
+      fetch("CambriaResume.pdf").then(response => {
+        response.blob().then(blob => {
+          const fileURL = window.URL.createObjectURL(blob);
+
+          let alink = document.createElement("a");
+          alink.href = fileURL;
+          alink.download = "CambriaResume.pdf";
+          alink.click();
+        })
+      })
+    }
+
   return (
     <div className="experience">
+      <br></br>
+      <h3 className="title">Resume</h3>
       <br></br>
       <VerticalTimeline lineColor="#C0D4DB">
         <VerticalTimelineElement
@@ -76,8 +92,9 @@ function Resume() {
             <span>Painting, Illustration, Graphic Design</span>
           </li>
         </ul>
+        <br></br>
+        <button className="btn" onClick={download}>Download</button>
       </div>
-
     </div>
 
     
