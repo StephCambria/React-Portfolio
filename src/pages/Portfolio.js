@@ -28,8 +28,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">Weather API app</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/StephCambria/WeatherAPIApp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://stephcambria.github.io/WeatherAPIApp/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -40,8 +52,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">Team Profile Generator</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/StephCambria/NodeTeamProfileGenerator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://watch.screencastify.com/v/fbHaDCr9z0qyiifK14kk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -52,8 +76,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">ExpressJS Note Taker</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/StephCambria/ExpressNoteTaker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://expressjs-note-takerapp.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -64,8 +100,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">Random Password Generator</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/StephCambria/Javascript-Random-Password-Generator"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://stephcambria.github.io/Javascript-Random-Password-Generator/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -76,8 +124,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">What's in the Fridge?</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/StephCambria/What-s-In-The-Fridge-"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://what-s-in-the-fridge.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -88,8 +148,20 @@ function Portfolio() {
                 <div class="card-body">
                   <h5 class="card-title">Monthly Calendar Dashboard</h5>
                   <p class="card-text">
-                    <TfiGithub />
-                    <GrDeploy />
+                    <a
+                      href="https://github.com/DayneLalmond/Calendar-Dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://daynelalmond.github.io/Calendar-Dashboard/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
                   </p>
                 </div>
               </div>
