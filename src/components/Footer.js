@@ -11,9 +11,27 @@ function Footer() {
   return (
     <div className="footer">
       <div>
-        <TfiGithub />
-        <TfiLinkedin />
-        <TfiInstagram />
+        <a
+          href="https://github.com/StephCambria/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TfiGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/stephanie-cambria-047972258/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TfiLinkedin />
+        </a>
+        <a
+          href="https://www.instagram.com/the.grave.keeper/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TfiInstagram />
+        </a>
       </div>
 
       <p> &copy; 2022 Stephanie Cambria</p>
