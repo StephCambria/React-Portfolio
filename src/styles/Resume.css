@@ -1,3 +1,8 @@
+.experience {
+  justify-content: center;
+  align-items: center;
+}
+
 .vertical-timeline-element-title {
     color: #91BFBC;
     font-size: medium;
@@ -10,7 +15,7 @@
 
 .title {
     color: #C0D4DB;
-    font-size: 40px;
+    font-size: 30px;
     height: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -35,4 +40,20 @@
   span {
     font-size: 20px;
     color:#91BFBC;
+  }
+
+
+  .btn {
+    border-radius: 10em;
+    border-style: none;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #91BFBC;
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color: #c0d4db;
+    color:#fff;
+    transition: 0.2s ease-in-out;
   }
