@@ -1,0 +1,59 @@
+.experience {
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-timeline-element-title {
+    color: #5693AD;
+    font-size: medium;
+}
+
+.vertical-timeline-element-subtitle {
+    margin-top: 1rem;
+    color:#ADCCD2;
+}
+
+.title {
+    color: #ADCCD2;
+    font-size: 30px;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .skills {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .skills .list .list-item {
+    list-style: none;
+    width: 90%;
+  }
+
+  span {
+    font-size: 20px;
+    color:#5693AD;
+  }
+
+
+  .btn {
+    border-radius: 10em;
+    border-style: none;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #ADCCD2;
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color: #5693AD;
+    color: #ADCCD2;
+    transition: 0.2s ease-in-out;
+  }

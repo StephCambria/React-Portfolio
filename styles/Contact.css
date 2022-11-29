@@ -1,0 +1,35 @@
+.contactBody {
+    width: 40%;
+    padding: 40px;
+    margin: 40px;
+}
+
+.form-label {
+    font-size: 25px;
+    color: #adccd2;
+}
+
+.sendBtn {
+    margin: 5.5px;
+    border-radius: 5em;
+    border-style: none;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #adccd2;
+    color: #fff;
+}
+
+.sendBtn:hover {
+    background-color: #5693AD;
+    transition: 0.2s ease-in-out;
+}
+
+.contactText {
+    width: 80%;
+    padding: 10px;
+}
+
+span {
+    width: 30%;
+    line-height: 1.5em;
+}
