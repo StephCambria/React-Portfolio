@@ -31,11 +31,11 @@ function Resume() {
       <br></br>
       <h3 className="title">Resume</h3>
       <br></br>
-      <VerticalTimeline lineColor="#C0D4DB">
+      <VerticalTimeline lineColor="#ADCCD2">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2009-2012"
-          iconStyle={{ background: "#fff", color: "#C0D4DB" }}
+          iconStyle={{ background: "#fff", color: "#ADCCD2" }}
           icon={ <GiSchoolBag /> }
         >
           <h5 className="vertical-timeline-element-title">Arlington Catholic High School, Arlington, MA</h5>
@@ -44,11 +44,11 @@ function Resume() {
         </VerticalTimelineElement>
       </VerticalTimeline>
 
-      <VerticalTimeline lineColor="#C0D4DB">
+      <VerticalTimeline lineColor="#ADCCD2">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2012-2016"
-          iconStyle={{ background: "#fff", color: "#C0D4DB" }}
+          iconStyle={{ background: "#fff", color: "#ADCCD2" }}
           icon={ <IoIosSchool /> }
         >
           <h5 className="vertical-timeline-element-title">Montserrat College of Art, Beverly, MA</h5>
@@ -58,11 +58,11 @@ function Resume() {
         </VerticalTimelineElement>
         </VerticalTimeline>
 
-        <VerticalTimeline lineColor="#C0D4DB">
+        <VerticalTimeline lineColor="#ADCCD2">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2022-present"
-          iconStyle={{ background: "#fff", color: "#C0D4DB" }}
+          iconStyle={{ background: "#fff", color: "#ADCCD2" }}
           icon={ <FaLaptopCode /> }
         >
           <h5 className="vertical-timeline-element-title">University of New Hampshire</h5>

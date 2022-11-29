@@ -1,44 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { validateEmail } from "../utils/helpers";
+//import { validateEmail } from "../utils/helpers";
 
 // Contact will contain a simple form
 
 function Contact() {
-  const [email, setEmail] = useState("");
-
-  const [errorMessage, setErrorMessage] = useState("");
-
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === "email") {
-      setEmail(inputValue);
-    }
-  };
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-      setErrorMessage("Not a valid email");
-      return;
-    }
-  };
-  setEmail("");
-
   return (
     <div className="contactBody">
       <div>
         <label for="exampleFormControlInput1" className="form-label">
           Email Me!
         </label>
+        <input type="name" className="form-control" placeholder="name" />
+        <br></br>
         <input
           type="email"
-          value={email}
-          onChange={handleInputChange}
           className="form-control"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
@@ -54,14 +31,15 @@ function Contact() {
           rows={5}
         ></textarea>
       </div>
-      <button className="sendBtn" onClick={handleFormSubmit}>
-        Send
-      </button>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+      <br></br>
+      <button className="sendBtn">Send</button>
+
+      <div className="contactText">
+        <br></br>
+        <span>steph.cambria.art@gmail.com</span>
+        <br></br>
+        <span>https://github.com/StephCambria</span>
+      </div>
     </div>
   );
 }
