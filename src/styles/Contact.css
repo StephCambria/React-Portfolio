@@ -6,7 +6,7 @@
 
 .form-label {
     font-size: 25px;
-    color: #c0d4db;
+    color: #adccd2;
 }
 
 .sendBtn {
@@ -15,11 +15,29 @@
     border-style: none;
     width: 5rem;
     height: 2.5rem;
-    background-color: #91BFBC;
+    background-color: #adccd2;
     color: #fff;
 }
 
 .sendBtn:hover {
-    background-color: #c0d4db;
+    background-color: #5693AD;
     transition: 0.2s ease-in-out;
+}
+
+.contactText {
+    width: 80%;
+    padding: 10px;
+}
+
+span {
+    width: 30%;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactBody {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
 }

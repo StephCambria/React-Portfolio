@@ -1,29 +1,33 @@
 .portfolio {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .portfolio .title {
-    text-align: center;
-    color: #C0D4DB;
-    font-size: 30px;
-    padding: 20px;
-  }
-  
-  .projectsList {
-    width: 90vw;
-    height: auto;
-    place-items: center;
-    padding: 5px;
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio .title {
+  text-align: center;
+  color: #adccd2;
+  font-size: 30px;
+  padding: 20px;
+}
 
-  .card-title {
-    color: #C0D4DB;
-  }
+.projectsList {
+  width: 90vw;
+  height: auto;
+  place-items: center;
+  padding: 5px;
+}
 
-  .card-text {
-    color: #91BFBC;
-  }
+.card-title {
+  color: #adccd2;
+}
+
+.card-text {
+  color: #adccd2;
+}
+
+a {
+  color: #adccd2;
+}
