@@ -1,7 +1,8 @@
-# React-Portfolio
+# Personal Portfolio built with React
 
 ![License Badge](https://shields.io/badge/license-ISC-green)
 
+![cover4](https://user-images.githubusercontent.com/107421370/204867706-44c535af-e79e-4b8d-a7ca-e19447c31b7c.png)
 
 ## Table of Contents
 1. [Description](#description)
@@ -13,10 +14,15 @@
 7. [Questions](#questions)
 
 ## Description
+A simple front-end portfolio application built with [React](https://reactjs.org/), and deployed via [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages). This project is a continuation of a previous one made with only HTML and CSS:
+
+![comparison](https://user-images.githubusercontent.com/107421370/204873588-47deeed0-9d48-4062-af36-227dea5a9b0a.png)
+
+Because this new portfolio is built using React, the header, navbar, and footer are rendered on each page, even on the mobile version!
 
 
 ## Installation
-
+This app is deployed through [Github Pages](https://stephcambria.github.io/React-Portfolio/).
 
 ## Usage
 
