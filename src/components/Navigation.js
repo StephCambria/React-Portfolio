@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Navigation.css";
+import { FcMenu } from "react-icons/fc";
 
 // Navigation will be the navbar that appears on each page
 
 function Navigation({ currentPage, handlePageChange }) {
+
+  const [expandNavbar, setExpandNavbar] = useState(false);
+
+
+  useEffect(() => {
+    setExpandNavbar(false);
+  }, [currentPage])
   return (
-    <div className="navbar">
-      {/* This is for mobile */}
-      {/* <div className="toggleButton">
-        <button></button>
-  </div> */}
+    <div className="navbar" id={expandNavbar ? "open" : "close"}>
+    <div className="mobileNav">
+      <p
+      className="toggleButton"
+        onClick={() => {
+          setExpandNavbar((prev) => !prev);
+        }}
+      >
+        <FcMenu />
+      </p>
+    </div>
       <div className="links">
         <a
           href="#about"
