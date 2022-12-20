@@ -170,7 +170,7 @@ function Portfolio() {
             </div>
             <div class="col mb-4">
               <div class="card">
-                <img src={Calendar} class="card-img-top" alt="..." />
+                <img src={Chat} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">MyloChat</h5>
                   <p class="card-text">
@@ -194,7 +194,7 @@ function Portfolio() {
             </div>
             <div class="col mb-4">
               <div class="card">
-                <img src={Calendar} class="card-img-top" alt="..." />
+                <img src={Ecommerce} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">E-Commerce Back-End API</h5>
                   <p class="card-text">
