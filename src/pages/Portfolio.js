@@ -10,6 +10,8 @@ import Note from "../assets/notetaker.png";
 import Password from "../assets/password.png";
 import Fridge from "../assets/fridge.png";
 import Calendar from "../assets/calendar.png";
+import Chat from "../assets/chat.png";
+import Ecommerce from "../assets/ecommerce-backend";
 
 // Portfolio will be the page containing images of all projects.
 
@@ -157,6 +159,54 @@ function Portfolio() {
                     </a>
                     <a
                       href="https://daynelalmond.github.io/Calendar-Dashboard/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src={Calendar} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">MyloChat</h5>
+                  <p class="card-text">
+                    <a
+                      href="https://github.com/StephCambria/mylochat"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://mylo-app.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GrDeploy />
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src={Calendar} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">E-Commerce Back-End API</h5>
+                  <p class="card-text">
+                    <a
+                      href="https://github.com/StephCambria/e-commerce-back-end"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TfiGithub />
+                    </a>
+                    <a
+                      href="https://watch.screencastify.com/v/u9aB6Y21BWHy08WocfPV"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
