@@ -10,8 +10,8 @@ import Note from "../assets/notetaker.png";
 import Password from "../assets/password.png";
 import Fridge from "../assets/fridge.png";
 import Calendar from "../assets/calendar.png";
-import Chat from "../assets/chat.png";
-import Ecommerce from "../assets/ecommerce-backend";
+import SocialNetwork from "../assets/socialnetwork.png";
+import Ecommerce from "../assets/ecommerce-backend.png";
 
 // Portfolio will be the page containing images of all projects.
 
@@ -170,19 +170,19 @@ function Portfolio() {
             </div>
             <div class="col mb-4">
               <div class="card">
-                <img src={Chat} class="card-img-top" alt="..." />
+                <img src={SocialNetwork} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">MyloChat</h5>
+                  <h5 class="card-title">Social Network API</h5>
                   <p class="card-text">
                     <a
-                      href="https://github.com/StephCambria/mylochat"
+                      href="https://github.com/StephCambria/SocialNetworkAPI"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <TfiGithub />
                     </a>
                     <a
-                      href="https://mylo-app.herokuapp.com/"
+                      href="https://watch.screencastify.com/v/8RxjCLKIki2kBfa2OImA"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
